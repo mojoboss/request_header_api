@@ -4,7 +4,8 @@
   "description": "Parses user agent request header",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "test": "node server.js",
+    "start": "node server.js"
   },
   "keywords": [
     "user-agent",
@@ -12,5 +13,17 @@
     "header"
   ],
   "author": "mojoboss",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojoboss/user_agent_request_header_parser_api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mojoboss/user_agent_request_header_parser_api/issues"
+  },
+  "homepage": "https://github.com/mojoboss/user_agent_request_header_parser_api#readme"
 }
