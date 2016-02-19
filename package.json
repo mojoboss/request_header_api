@@ -1,0 +1,16 @@
+{
+  "name": "@mojoboss/user_agent_request_header_parser_api",
+  "version": "1.0.0",
+  "description": "Parses user agent request header",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "user-agent",
+    "request",
+    "header"
+  ],
+  "author": "mojoboss",
+  "license": "MIT"
+}
