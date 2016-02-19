@@ -1,7 +1,7 @@
 <h2>Request header parser-</h2>
 <h3>Example usage:</h3>
 <ul>
-<li>https://immense-ridge-50975.herokuapp.com/api/whoami</li>
+<li>https://serene-waters-77746.herokuapp.com/api/whoami</li>
 </ul>
 <h3>Example output:</h3>
 <ul>

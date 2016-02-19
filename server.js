@@ -1,5 +1,14 @@
 var express = require("express");
 var app = express();
+
+app.use(express.static("public/"));
+
+app.get("/", function(req, res){
+	req.statusCode = 200;
+	res.setHeader("Content-Type", "text/html");
+	res.send("index.html");
+});
+
 app.get("/api/whoami", function(req, res){
 	res.statusCode = 200;
 	res.setHeader('Content-Type', 'application/json');

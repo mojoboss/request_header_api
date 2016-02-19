@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<!--Fonts-->
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<h1 class="header">
+                Request Header Parser Microservice
+        </h1>
+
+        <blockquote>
+                User stories:
+                <ul>1)  I can get the IP address, language and operating system for my browser.
+        </blockquote>
+        <h3>Example usage:</h3>
+        <code>https://serene-waters-77746.herokuapp.com/api/whoami</code><br>
+        <h3>Example output:</h3>
+        <code>
+            {
+              "ip-address":"::ffff:127.0.0.1",
+              "language":"en-US,en;q=0.8",
+              "software":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36"
+            }
+        </code>
+	</div>
+</body>
+</html>
